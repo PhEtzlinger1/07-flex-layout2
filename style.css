@@ -53,9 +53,12 @@ li {
 
 .cards {
   display: flex;
+  padding 10px;
   margin: 48px;
   display: flex;
+  justify-content: space-around;
   flex-direction: row;
+  
   
   
 }
@@ -65,6 +68,9 @@ li {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   display: flex;
+  flex-wrap: wrap;
+  border: 2px black;
+  gap:2px;
 }
 
 ul {
